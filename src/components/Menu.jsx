@@ -19,7 +19,7 @@ const Menu = () => {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="">
-                    <ul className={` text-center w-full z-50  lg:flex gap-14 pt-[10px] absolute lg:static ${show == true ? 'top-[173px] left-0  bg-[#F40404] ease-in duration-300' : 'top-[173px] left-[-100%] bg-[#F40404] ease-in duration-300' }`}>
+                    <ul className={` text-center w-full z-50  lg:flex gap-14 pt-[10px] absolute lg:static ${show == true ? 'top-[170px] left-0  bg-[#F40404] ease-in duration-300' : 'top-[170px] left-[-100%] bg-[#F40404] ease-in duration-300' }`}>
                         <li><a className='font-pops text-[15px] text-white font-semibold' href="#">Home</a></li>
                         <li><a className='font-pops text-[15px] text-white font-semibold'  href="#">About</a></li>
                         <li><a className='font-pops text-[15px] text-white font-semibold' href="#">Services</a></li>
